@@ -19,7 +19,8 @@ $ docker-compose up
 >`http://127.0.0.1:8000/knapsack/` 
 > and pass the below json data in the content and media type as application/json
 >
-![Screenshot](KnapsackWebappwithRequestjson.png)
+
+![My Image](images/KnapsackWebappwithRequestjson.png)
 
 ```json
 
@@ -51,7 +52,7 @@ $ docker-compose up
 
 ```
 
-![Screenshot](KnapsackResponseJson.png)
+![My Image](images/KnapsackResponseJson.png)
 
 >In this way, a knapsack service can be created using Django application and containerized using docker compose
 
@@ -60,3 +61,5 @@ $ docker-compose up
 >Load balancer is used to distribute traffic to multiple instances of Django Application coming from the client application. 
 >
 >Redis cache is used to store the frequent API calls and retrieve the most used data from it.  
+
+![My Image](images/design.png)
