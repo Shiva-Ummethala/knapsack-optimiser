@@ -1,0 +1,22 @@
+// http://localhost:8000/knapsack/  - request URL 
+
+Request body
+
+{
+    "items": [
+        [2, 10],
+        [3, 15],
+        [5, 25],
+        [7, 30],
+        [9, 35]
+    ],
+    "capacity": 10
+}
+
+
+Response body
+
+{
+    "result": 50,
+    "items": [[2,10],[3,15],[5,25]]
+}
