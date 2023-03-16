@@ -63,3 +63,28 @@ $ docker-compose up
 >Redis cache is used to store the frequent API calls, decrease data access latency, increase throughput, and ease the load off your database and application.  
 
 ![My Image](images/design.png)
+
+
+
+# Instructions to create a Django project
+
+>
+>From the command line, cd into a directory where you’d like to store your code, then run the following command:
+>
+ 
+```sh
+$ django-admin startproject knapsack_optimiser
+```
+
+> Then create an Django App 
+> Navigate inside the directory and run the following command
+>
+
+```sh
+$ python manage.py startapp knapsack_api
+```
+>
+
+> Navigate to settings.py and add "rest_framework" and "knapsack_api" to INSTALLED_APPS
+>
+> Refer to the code inside the repo and modify accordingly as per your requirement!
