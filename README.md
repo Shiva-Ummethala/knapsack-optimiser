@@ -60,7 +60,9 @@ $ docker-compose up
 >In this way, a knapsack optimiser service can be created using Django application and containerized using docker compose
 
 >This application can be deployed to Cloud with additional services like LoadBalancer, Redis Cache, Firewall and Authorization Server etc.
+>
 >Load balancer is used to distribute traffic to multiple instances of Django Application coming from the client app.
+>
 >Redis cache is used to store the frequent API calls, decrease data access latency, increase throughput, and ease the load off your database and application.  
 
 ![My Image](images/design.png)
@@ -89,7 +91,7 @@ $ python manage.py startapp knapsack_api
 >
 > Refer to the code inside the repo and modify accordingly as per your requirement!
 >
-> After you make changes, run the migrations to create a fields in the database
+> After you make changes, run the migrations using below command to create a fields in the database
 
 ```sh
 $ python manage.py makemigrations
