@@ -8,7 +8,10 @@ of items to include in the knapsack to maximize the total value.
 
 # Getting Started
 > To get started with the Knapsack Optimizer Service, you'll need to follow these steps:
-> Clone the repository to your local machine:
+Clone the repository to your local machine:
+```sh
+$ git clone <repo_url>
+```
 
 ## To setup dev environment and run the application
 >Navigate to knapsack-optimiser directory and execute the below commands
