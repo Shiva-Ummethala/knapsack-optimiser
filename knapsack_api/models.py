@@ -1,5 +1,4 @@
-
-# knapsack_api/models.py
+# Define the database fields in models.py
 from django.db import models
 
 

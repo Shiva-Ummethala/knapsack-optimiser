@@ -1,3 +1,4 @@
+# knapsack algorithm using matrix approach
 def knapsack(items, capacity):
     # initialize a matrix of zeros with dimensions (items + 1) x (capacity + 1)
     matrix = [[0 for x in range(capacity + 1)] for x in range(len(items) + 1)]
