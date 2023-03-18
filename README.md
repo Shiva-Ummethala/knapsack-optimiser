@@ -59,10 +59,8 @@ $ docker-compose up
 
 >In this way, a knapsack optimiser service can be created using Django application and containerized using docker compose
 
->This application can be deployed to cloud inclucing services like LoadBalancer, Redis Cache, Firewall and Authorization Server etc.
->
+>This application can be deployed to Cloud with additional services like LoadBalancer, Redis Cache, Firewall and Authorization Server etc.
 >Load balancer is used to distribute traffic to multiple instances of Django Application coming from the client app.
->
 >Redis cache is used to store the frequent API calls, decrease data access latency, increase throughput, and ease the load off your database and application.  
 
 ![My Image](images/design.png)
@@ -70,7 +68,6 @@ $ docker-compose up
 
 
 # Instructions to create a Django project(Not required if you are running the application using docker compose)
-
 >
 >From the command line, cd into a directory where you’d like to store your code, then run the following command:
 >
